@@ -27,6 +27,10 @@
 header {
     background-color: #FFF8F3;
     padding-top: 53px;
+    background: url(/images/developer.png), url(/images/header_bg.png), #FFF8F3;
+    background-position: top left ,bottom right;
+    background-repeat: no-repeat;
+
 }
 
 nav {
@@ -62,4 +66,44 @@ nav .menu a {
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+
+#baner{
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#baner .baner-content{
+    max-width: 585px;
+}
+
+#baner .baner-content h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#baner .baner-content h1{
+
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#baner .baner-content p{
+    font-size: 18px;
+    color: 757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#baner .banar-image{
+    max-width: 585px;
+    vertical-align: middle;
 }
